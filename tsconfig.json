@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",      // ✅ Ensure compiled files go into 'dist' folder
+    "rootDir": "src",      // ✅ Make sure it compiles from 'src' folder
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],      // ✅ Only compile files in 'src'
+  "exclude": ["node_modules"]
+}
